@@ -1,6 +1,6 @@
 <img src="src/img/Logo-github.png"  align="center">
 
-[Meu PORTIFOLIO](https://hiltonesjr.github.io/projeto-portifolio/) <br>
+[MEU PORTIFOLIO](https://hiltonesjr.github.io/projeto-portifolio/) <br>
 
 
 <h1> Ferramentas Usadas </h1>

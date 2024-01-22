@@ -1,4 +1,4 @@
-<img src="images/banner/logo.svg"  align="center">
+<img src="src/img/Logo-github.png"  align="center">
 
 [Meu PORTIFOLIO](https://hiltonesjr.github.io/projeto-portifolio/) <br>
 

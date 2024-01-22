@@ -24,6 +24,6 @@
 </ul>
 <HR>
 
-Projeo foi iniciado com a plataforma alura realizando a trilha de front-end em parceria com a a Oracle.
+Projeto foi iniciado com a plataforma alura realizando a trilha de front-end em parceria com a a Oracle.
 
 Projeto de estudo Alura + inicialização a ultilização do GIT

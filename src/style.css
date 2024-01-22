@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+  color: white;
+  width: 100%;
+}
+.menu-bar {
+    padding: 2% 0% 0% 19%;
+}
+.link-menu-bar {
+    display: flex;
+    gap: 80px;
+}
+.link-menu {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
+
+}
+.conteudo {
+    padding: 8% 15%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: row;
+  gap: 84px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.conteudo-text {
+  display: flex;
+  border: 1px solid black;
+  width: 593px;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+h1 {
+  font-size: 36px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+p {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+strong {
+  color: #22d4fd;
+}
+.conteudo-text a {
+  font-family: Montserrat;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  text-decoration: none;
+  width: 378px;
+  border-radius: 8px;
+  border: 2px solid #22d4fd;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+.conteudo-text.link-links {
+  display: flex;
+  flex-direction: column;
+}
+.links-link:hover {
+  font-family: Montserrat;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  text-decoration: none;
+  width: 378px;
+  border-radius: 8px;
+  border: 2px solid #22d4fd;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #272727;
+}
+.conteudo-img img {
+  width: 467px;
+  height: 532px;
+  border-radius: 16px;
+  box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
+  -webkit-box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
+  -moz-box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
+}
+.rodape p {
+  margin-top: 104px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #22d4fd;
+  text-align: center;
+  padding: 24px;
+}

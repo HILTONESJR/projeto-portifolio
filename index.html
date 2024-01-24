@@ -1,36 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/styless/style-responsive.css" />
     <title>Hilton Portifolio</title>
-</head>
-<body>
-    <header class="menu-bar"> <!--cabecalho -->
-        <nav class="link-menu-bar">   <!-- Cabeçalho menu-->
-            <a  class="link-menu" href="index.html">Home</a><!-- Cabecalho menu link-->
-            <a class="link-menu" href="projetos.html">Projetos</a>
-            <a class="link-menu" href="sobre.html">Sobre mim</a>
-            
-        </nav>
+  </head>
+  <body>
+    <header class="menu-bar"><!--cabecalho -->
+      <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="index.html" class="active">HOME</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                <a href="#news">HOME</a>
+                <a href="projetos.html">PROJETOS</a>
+                <a href="sobre.html">SOBRE</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+      <nav class="link-menu-bar">
+        <!-- Cabeçalho menu-->
+        <a class="link-menu" href="index.html">Home</a
+        ><!-- Cabecalho menu link-->
+        <a class="link-menu" href="projetos.html">Projetos</a>
+        <a class="link-menu" href="sobre.html">Sobre mim</a>
+      </nav>
     </header>
     <main class="conteudo">
-        <section class="conteudo-text">
-            <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
-            <p>Olá! Sou Hilton Junior, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <h2>Acesse minhas redes:</h2>
-        <a class="links-link" href="https://github.com/HILTONESJR"><img src="/src/img/Logo Github.png">GitHub</a>
-        <a class="links-link" href="www.linkedin.com/in/hilton-junior-dev"><img src="./src/img/Logo linkedin.png">LinkedIn</a>
-        </section>
-        <section class="conteudo-img">
-            <img src="src/img/hilton-jr.jpeg" alt="foto-do-dev" srcset="">
-        </section>
-
+      <section class="conteudo-text">
+        <h1>
+          Eleve seu negócio digital a outro nível
+          <strong>com um Front-end de qualidade!</strong>
+        </h1>
+        <p>
+          Olá! Sou Hilton Junior, desenvolvedor Front-end com especialidade em
+          React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em
+          prática boas ideias. Vamos conversar?
+        </p>
+        <h2>Acesse minhas redes:</h2>
+        <a class="links-link" href="https://github.com/HILTONESJR"
+          ><img src="./src/img/Logo-github.png" />GitHub</a
+        >
+        <a class="links-link" href="www.linkedin.com/in/hilton-junior-dev"
+          ><img src="./src/img/Logo linkedin.png" />LinkedIn</a
+        >
+      </section>
+      <section class="conteudo-img">
+        <img src="./src/img/hilton-jr.jpeg" alt="foto-do-dev" srcset="" />
+      </section>
     </main>
     <footer class="rodape">
-        <p>Desenvolvido po Hilton Junior Copyright @ 2024</p>
+      <p>Desenvolvido po Hilton Junior Copyright @ 2024</p>
     </footer>
-    
-</body>
+  </body>
+  <script
+    src="./src/script.js"
+  ></script>
 </html>

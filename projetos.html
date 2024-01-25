@@ -11,12 +11,25 @@
 </head>
 <body>
     <header class="menu-bar"> <!--cabecalho -->
+        <div class="topnav">
+            <a href="projetos.html" class="active">PROJETOS</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+            <a href="index.html">HOME</a>
+            <a href="projetos.html">PROJETOS</a>
+            <a href="sobre.html">SOBRE</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <nav class="link-menu-bar">   <!-- Cabeçalho menu-->
             <a  class="link-menu" href="index.html">Home</a><!-- Cabecalho menu link-->
             <a class="link-menu" href="projetos.html">Projetos</a>
             <a class="link-menu" href="sobre.html">Sobre mim</a>
-            
         </nav>
+        <hr>
     </header>
     <div class="title-projects">
         <h1>Projetos Fron-End</h1>
@@ -38,10 +51,16 @@
             <p>Jogo Desenvolvido na trilha Javascript Alura!</p>
             <a class="link-projetos" hr href="">CODE<img src="./src/img/Logo-github.png"></a>
         </div>
+        <a href="https://wa.me/11987983355"><img 
+            src="https://img.icons8.com/?size=80&id=d5ntEsf0JRhM&format=png" style="height:64px; position:fixed; bottom: 25px; right: 
+            25px; z-index:99999;" data-selector="img"></a>
     </main>
     <footer class="rodape">
         <p>Desenvolvido po Hilton Junior Copyright @ 2024</p>
     </footer>
     
 </body>
+<script
+src="./src/script.js"
+></script>
 </html>

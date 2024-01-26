@@ -47,7 +47,13 @@ body {
   gap: 5.2rem;
   align-items: center;
   justify-content: center;
-  
+}
+.conteudo-sobre {
+    padding: 8% 15%;
+    display: flex;
+    justify-content: row;
+    gap: 5.2rem;
+    justify-content: center;
 }
 .conteudo-text {
   display: flex;
@@ -114,6 +120,15 @@ strong {
   -webkit-box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
   -moz-box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
 }
+.conteudo-img-sobre img {
+  width: 29rem;
+  height: 42rem;
+  border-radius: 1rem;
+  box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
+  -webkit-box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
+  -moz-box-shadow: 8px -7px 13px -2px rgba(119, 118, 161, 0.75);
+}
+
 .rodape p {
   margin-top: 6.5rem;
   color: var(--cor-primaria);

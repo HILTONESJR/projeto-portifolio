@@ -145,18 +145,7 @@
     height: 4rem;
     gap: 1rem;
   }
-  .conteudo-sobre {
-    flex-direction: column-reverse;
-    padding: 16% 8%;
-  }
-
-  .conteudo-img-sobre {
-    padding: 3% 0%;
-    justify-content: center;
-  }
-  .conteudo-img-sobre img {
-    width: auto;
-  }
+  
   
 }
 @media (max-width: 1090px) {
@@ -247,7 +236,10 @@
     justify-content: center;
   }
   .conteudo-img-sobre img {
-    width: auto;
+    width: 21rem;
+    height: 30rem;
+    border-radius: 1rem;
+   
   }
   .front-skills img {
     display: inline-flex;
